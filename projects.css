@@ -13,7 +13,13 @@
     width: 500px;
     border: 2px solid white;
     border-radius: 5%;
-    box-shadow: 0 4px 10px #adb5bd;
+    border: 3px solid #8338ec;
+    box-shadow: 0 4px 10px #8338ec;
+    transition: transform 1s;
+}
+
+.box:hover{
+    transform: scale(1.1);
 }
 
 .image{

@@ -14,6 +14,11 @@
     height: 300px;
     border-radius: 3%;
     box-shadow: 0 4px 10px #adb5bd;
+    transition: transform 1s;
+}
+
+.skill-box:hover{
+    transform: scale(1.2);
 }
 
 .skill-image img {
@@ -31,6 +36,7 @@
     height: 100%;
     padding-left: 30px;
     padding-right: 30px;
+    font-family: "Ubuntu";
     text-align: center;
     color: white;
     background-color: #1b046e;
