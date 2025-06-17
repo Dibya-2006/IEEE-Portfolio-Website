@@ -1,4 +1,4 @@
-.content{
+.content {
     width: 1000px;
     margin: 50px auto;
     text-align: center;
@@ -6,10 +6,49 @@
     font-size: x-large;
 }
 
-.content p{
+.content p {
     margin-bottom: 60px;
 }
 
-.content h2{
+.content h2 {
     color: #03045e;
+}
+
+.box {
+    width: 1050px;
+    box-shadow: 2px 2px 2px 5px gray;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    border-radius: 5px;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.slideFromLeft {
+    animation-name: leftSlide;
+}
+
+.slideFromRight {
+    animation-name: rightSlide;
+}
+
+@keyframes leftSlide {
+    0% {
+        transform: translateX(-100vw);
+    }
+
+    100% {
+        transform: translateX(0)
+    }
+}
+
+@keyframes rightSlide {
+    0% {
+        transform: translateX(100vw);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
