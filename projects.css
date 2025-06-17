@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-evenly;
+    width: 1700px;
+    height: 1100px;
+    margin: 60px auto;
+}
+
+.box{
+    height: 500px;
+    width: 500px;
+    border: 2px solid white;
+    border-radius: 5%;
+    box-shadow: 0 4px 10px #adb5bd;
+}
+
+.image{
+    height: 70%;
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-radius: 6% 6% 0px 0px;
+}
+
+.text{
+    padding: 15px 20px;
+    text-align: justify;
+    font-family: "Ubuntu";
+    font-size: large;
+}

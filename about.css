@@ -1,0 +1,15 @@
+.content{
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: "Ubuntu";
+    font-size: x-large;
+}
+
+.content p{
+    margin-bottom: 60px;
+}
+
+.content h2{
+    color: #03045e;
+}
